@@ -1,0 +1,50 @@
+<div class="container mt-4">
+    <div class="row">
+        <div class="col">
+            <h1>
+                
+                    <i class="fa-solid fa-user-eye"></i>&nbsp;
+                    View Employee page
+                
+            </h1>
+    
+                <p style="text-align: justify;">
+                    This is a dummy data: Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit neque perspiciatis porro cum, distinctio beatae officia asperiores temporibus minima velit magnam debitis iste laudantium! Iste voluptates labore voluptatibus recusandae qui!
+                </p>
+        </div>
+    </div>
+    <div class="container mt-4 nb-5">
+        <div class="col">
+
+        </div>
+
+    </div>
+    
+<!--view employee details-->
+<div class="container mt-4 mb-3">
+    <div class="row border p-5 align-item-center">
+        <div class="col md-4">
+<img width="200px" [src]="viewemployee.photo" alt="no image">                                            
+                                            <br>
+                                            <a routerLink="/employee/admin" class="btn btn-warning ms-5 mt-2"><i class="fa-solid fa circle"></i> <i class="fa-solid fa-circle-left"></i>Go back</a>
+                                        </div>
+           
+                                                <!--employee details-->
+            <div class="col-md-8">
+            <ul class="list-group">
+                <li class="list-group-item">Id: {{viewemployee.id}} <b></b></li>
+
+                <li class="list-group-item">Name: {{viewemployee.name}}<b></b></li>
+                <li class="list-group-item">Email: {{viewemployee.email}}<b></b></li>
+                <li class="list-group-item">Mobile: {{viewemployee.mobile}}<b></b></li>
+                <li class="list-group-item">Title: {{viewemployee.title}}<b></b></li>
+                <li class="list-group-item">Salary: {{viewemployee.salary}}<b></b></li>
+
+            </ul>
+
+        
+    </div>
+
+    </div>
+
+</div>
